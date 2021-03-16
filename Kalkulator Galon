@@ -13,8 +13,8 @@ public class TugasPBO1 {
         System.out.println("\nMasukkan Jumlah Galon : ");
         
         Gallons = scan.nextDouble();
-        count = Gallons *3.785d;
+        count = Gallons *3.785;
         
-        System.out.printf("%.0f Galon = %.3d Liter \n\n", Gallons, count);
+        System.out.printf("%.0f Galon = %.3f Liter \n\n", Gallons, count);
     }
 }
