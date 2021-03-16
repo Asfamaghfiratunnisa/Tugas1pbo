@@ -7,14 +7,14 @@ public class TugasPBO1 {
         Scanner scan = new Scanner(System.in);
         
         double Gallons;
-        double count;
+        double hasil;
         
-        System.out.println("Konversi Satuan Liter Galon");
-        System.out.println("\nMasukkan Jumlah Galon : ");
+        System.out.println("== Konversi Satuan Liter Galon ==");
+        System.out.println("Masukkan Jumlah Galon : ");
         
         Gallons = scan.nextDouble();
-        count = Gallons *3.785;
+        hasil = Gallons *3.785;
         
-        System.out.printf("%.0f Galon = %.3f Liter \n\n", Gallons, count);
+        System.out.printf("%.0f Galon = %.3f Liter \n\n", Gallons, hasil);
     }
 }
